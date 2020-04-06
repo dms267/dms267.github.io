@@ -5020,6 +5020,24 @@ input, select, textarea {
 		letter-spacing: 3px;
 	}
 
+	.imageboard {
+		display: flex;
+	}
+
+	.imageboard #board_1 {
+		width: 50%;
+		margin-right: 2em;
+	}
+
+	.imageboard #board_2 {
+		width: 50%;
+	}
+
+	.imageboard #board_2 > div {
+		margin-top: 1em;
+		margin-bottom: 1em;
+	}
+
 /* Pagination */
 
 	.pagination {
