@@ -5038,6 +5038,28 @@ input, select, textarea {
 		margin-bottom: 1em;
 	}
 
+	.image_column {
+		box-sizing: border-box;
+		float: left;
+		width: 50%;
+		padding: 5px;
+	}
+
+	.image_column p {
+		text-align: center;
+		font-weight: bold;
+		font-size: 150%;
+		margin:	0 0 0 0;
+	}
+
+	.image_row::after {
+		box-sizing: border-box;
+		content: "";
+		clear: both;
+		display: table;
+		padding: 0 0 0 0;
+	}
+
 /* Pagination */
 
 	.pagination {
