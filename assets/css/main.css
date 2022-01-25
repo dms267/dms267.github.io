@@ -5060,6 +5060,24 @@ input, select, textarea {
 		padding: 0 0 0 0;
 	}
 
+	#row_of_2 {
+		width: 66.66%;
+		margin-left: 9em;
+	}
+
+	#row_of_2 > div {
+		width: 100%;
+		padding: 1em;
+		justify-content: center;
+		align-items: center;
+	}
+
+	#row_of_3 > div {
+		width: 33.33%;
+		padding: 1em;
+		align-items: center;
+	}
+
 /* Pagination */
 
 	.pagination {
